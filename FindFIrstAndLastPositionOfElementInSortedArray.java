@@ -1,5 +1,7 @@
 class Solution {
     public int[] searchRange(int[] nums, int target) {
+
+        int[] a = new int[5];
         int left =0;
         int right = nums.length-1;
         boolean flag = false;
